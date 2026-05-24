@@ -65,3 +65,21 @@ vectorshift-technical-assessment/
 ├── screenshots/
 ├── README.md
 └── .gitignore
+
+---
+
+## Screenshots
+
+### Pipeline Builder UI
+
+![Pipeline UI](./screenshots/pipeline-ui.png)
+
+### DAG Validation Result
+
+![DAG Validation](./screenshots/result%20of%20pipeline.png)
+
+---
+
+## Author
+
+Adila Jaleel
