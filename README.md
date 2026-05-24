@@ -130,7 +130,8 @@ Example response:
 
 ### DAG Validation Result
 
-![DAG Validation](./screenshots/result%20of%20pipeline.png)
+![DAG Validation](./screenshots/pipeline%20result.png)
+
 
 ---
 
