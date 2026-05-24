@@ -47,6 +47,7 @@ Users can create and connect nodes visually, build workflows dynamically, and va
 - React
 - ReactFlow
 - Zustand
+- React Hot Toast
 
 ### Backend
 
@@ -65,6 +66,59 @@ vectorshift-technical-assessment/
 ├── screenshots/
 ├── README.md
 └── .gitignore
+```
+
+---
+
+## Running Frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+Frontend runs on:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+## Running Backend
+
+```bash
+cd backend
+pip install fastapi uvicorn
+uvicorn main:app --reload --port 8000
+```
+
+Backend runs on:
+
+```bash
+http://127.0.0.1:8000
+```
+
+---
+
+## DAG Validation
+
+The backend validates whether the pipeline forms a Directed Acyclic Graph (DAG) and returns:
+
+- Number of Nodes
+- Number of Edges
+- DAG Status
+
+Example response:
+
+```json
+{
+  "num_nodes": 3,
+  "num_edges": 2,
+  "is_dag": true
+}
+```
 
 ---
 
